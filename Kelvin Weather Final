@@ -1,0 +1,23 @@
+// This permanently sets the variable "kelvin" as 293
+
+const kelvin = 0;
+
+// This sets the value of celsius to kelvin - 273
+
+const celsius = kelvin - 273
+
+// This sets the value for the variable fahrenheit as the product of the celsius conversion equation
+
+let fahrenheit = celsius * (9 / 5) + 32;
+
+// Below rounds the decimal down to the integer
+
+fahrenheit = Math.floor(fahrenheit);
+
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+
+let newton = celsius * (33 / 100);
+
+newton = Math.floor(newton);
+
+console.log(`The temperature is ${newton} degrees Newton.`);
